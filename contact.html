@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta name="description" content="Site perso" />
+    <meta name="keywords" content="mmi, robin, botella" />
+    <meta name="author" content="Robin Botella" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="general.css" />
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav class="menu">
+        <ul id="top_menu">
+            <li> <a class="autrea" href="index.html">Accueil</a> </li>
+            <li> <a class="autrea" href="projets.html">Projets</a> </li>
+            <li> <a class="autrea" href="cv.html">Mon CV</a> </li>
+            <li> <a id="actua" href="contact.html">Contact</a> </li>
+        </ul>
+    </nav>
+
+    <!-- Formulaire -->
+
+    <div class="formulaire">
+        <form method="post" enctype="text/plain" action="mailto:botellarobin@gmail.com">
+
+            <label class="caption" for="fnom">Nom</label>
+            <br>
+            <input class="txt" type="text" id="fnom" name=" Nom " placeholder="Nom">
+            <br>
+
+            <label class="caption" for="fprenom">Prénom</label>
+            <br>
+            <input class="txt" type="text" id="fprenom" name=" Prenom " placeholder="Prénom">
+            <br>
+
+            <label class="caption" for="fmail">Mail</label>
+            <br>
+            <input class="txt" type="text" id="fmail" name=" Mail " placeholder="Adresse mail">
+            <br>
+
+            <label class="caption" for="raison">Raison</label>
+            <br>
+            <select name=" Raison du mail " id="select">
+                <option value=""> -- Choisir la raison -- </option>
+                <option value="Partenariat"> Partenariat </option>
+                <option value="Personelle"> Personelle </option>
+                <option value="Professionelle"> Professionelle </option>
+                <option value="Renseignements"> Renseignements </option>
+            </select>
+
+            <br>
+            <label class="caption" for="message">Message</label>
+            <br>
+            <textarea rows="10" cols="50" name=" Message " placeholder="Entrez votre message"></textarea>
+
+            <!-- Boutons envoyer/effacer -->
+
+            <br>
+            <button class="envoyer" type="submit" style="vertical-align:middle"> Valider </button>
+            <button class="effacer" type="reset" style="vertical-align:middle"> Effacer </button>
+
+        </form>
+    </div>
+
+    <br><br>
+
+
+
+
+</body>
+
+</html>
